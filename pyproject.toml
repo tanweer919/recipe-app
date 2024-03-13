@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "recipe-app"
+version = "0.1.0"
+description = ""
+authors = ["Tanweer anwar <tanweer.anwar919@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.12.3"
+pandas = "^2.2.1"
+pyarrow = "^15.0.1"
+isodate = "^0.6.1"
+torch = "^2.2.1"
+transformers = "^4.38.2"
+datasets = "^2.18.0"
+accelerate = "^0.27.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
